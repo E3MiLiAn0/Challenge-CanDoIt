@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Formulario Alumnos</title>
 </head>
-<body style="background: #323025c7;" >
+<body style="background: #cbac3bd9;" >
 
 <div style="
     margin: 40px;

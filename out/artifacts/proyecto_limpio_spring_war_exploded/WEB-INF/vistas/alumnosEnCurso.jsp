@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>alumnos del curso</title>
 </head>
-<body style="background: #323025c7;">
+<body style="background: #cbac3bd9;">
 
 
 <div style="
@@ -39,7 +39,7 @@
     <div class="col-md-8">
         <h4>Seleccione los Alumnos que desea agregar al Curso: ${curso.nombre}</h4>
         <form action="agregarAlumnosACurso" method="GET" class="text-center">
-            <select name="idAlumno" class="form-select form-select-sm" aria-label=".form-select-sm example " style="
+            <select name="idAlumno" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example " style="
     width: 25%;
 ">
                 <c:forEach items="${listaDeAlumnos}" var="alumno">

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Error</title>
 </head>
-<body style="background: #323025c7;">
+<body style="background: #cbac3bd9;">
 
 
 
@@ -50,7 +50,7 @@
                         </div>
 
                         <p>intente de nuevo con otro alumno</p>
-                        <a class="nav-link active" aria-current="page" href="todos-los-cursos">Volver a Home</a>
+                        <a class="nav-link active" aria-current="page" href="todos-los-cursos">Volver </a>
 
                     </div>
                 </div>
