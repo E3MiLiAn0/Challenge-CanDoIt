@@ -46,7 +46,10 @@ public class RepositorioCursoImpl implements RepositorioCurso{
 
     @Override
     public List<Curso> listarCurso() {
-        List<Curso> listaDeCursos = sessionFactory.getCurrentSession().createCriteria(Curso.class).list();
+        List<Curso> listaDeCursos = sessionFactory.getCurrentSession().createCriteria(Curso.class)
+                .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY)
+
+                .list();
         return listaDeCursos;
     }
 
