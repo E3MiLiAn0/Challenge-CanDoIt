@@ -20,9 +20,10 @@
 
 <div style="
     margin: 40px;
-    border: orange solid 2px;
+
+    padding: 5px;
 ">
-  <nav class="nav nav-pills nav-fill">
+  <nav class="nav nav-pills nav-fill navbar navbar-dark bg-dark">
     <a class="nav-link " aria-current="page" href="/proyecto_limpio_spring_war_exploded/home">Home</a>
     <a class="nav-link " href="irRegistrarAlumno">Agregar un alumno nuevo</a>
     <a class="nav-link" href="todos-los-alumnos">ver todos los Alumnos</a>
