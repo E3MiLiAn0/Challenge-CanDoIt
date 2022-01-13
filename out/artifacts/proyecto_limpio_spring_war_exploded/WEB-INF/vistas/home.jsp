@@ -13,7 +13,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 	<link href="css/Login.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<title></title>
+	<title>Home</title>
 </head>
 <body style="background: #323025c7;">
 
@@ -33,7 +33,14 @@
 
 </div>
 
-
+<div class="row mt-4 pt-5">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+		<h1>Bienvenidos al Administrador de</h1>
+		<h1>Alumnos y Cursos</h1>
+	</div>
+	<div class="col-md-2"></div>
+</div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
