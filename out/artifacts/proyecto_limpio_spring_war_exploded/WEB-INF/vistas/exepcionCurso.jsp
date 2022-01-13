@@ -48,7 +48,7 @@
                         </div>
 
                         <p>intente de nuevo con otro alumno</p>
-                        <a class="nav-link active" aria-current="page" href="todos-los-cursos">Volver</a>
+                        <a class="nav-link active" aria-current="page" href="todos-los-cursos">Volver a Home</a>
 
                     </div>
                 </div>
