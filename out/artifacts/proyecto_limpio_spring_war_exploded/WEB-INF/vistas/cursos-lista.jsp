@@ -13,7 +13,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
   <link href="css/Login.css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <title>Factura servicio contratado</title>
+  <title>listado del cursos</title>
 </head>
 <body style="background: #323025c7;">
 

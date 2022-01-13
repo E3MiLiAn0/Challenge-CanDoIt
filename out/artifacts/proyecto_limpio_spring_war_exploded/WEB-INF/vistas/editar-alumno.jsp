@@ -13,7 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="css/Login.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Factura servicio contratado</title>
+    <title>Editar Alumno</title>
 </head>
 <body style="background: #323025c7;">
 <div style="
@@ -30,7 +30,9 @@
     </nav>
 
 </div>
-
+<div class="row mt-4 pt-5">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
 <table class="table table-bordered text-center">
     <thead>
     <tr>
@@ -45,14 +47,16 @@
         <tr>
             <td><input name="nombre" type="text" id="nombre" class="form-control" value="${alumno.nombre}" required autofocus></td>
             <td><input name="apellido" type="text" id="apellido" class="form-control" value="${alumno.apellido}" required></td>
-            <td><input name="dni" type="text" id="dni" class="form-control" value="${alumno.dni}" required></td>
+            <td><input name="dni" type="number" id="dni" class="form-control" value="${alumno.dni}" required></td>
             </tr>
     </tbody>
 </table>
 <input name="id" type="hidden" id="id" value="${alumno.id}">
 <button class="btn btn-lg btn-primary float-right font-weight-bold" type="submit">Editar</button>
 </form>
-
+    </div>
+    <div class="col-md-2"></div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
