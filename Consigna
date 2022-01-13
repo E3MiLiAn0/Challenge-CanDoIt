@@ -1,0 +1,11 @@
+Se debe desarrollar una aplicación para administrar alumnos y cursos de una universidad.
+
+La aplicación debe permitir:
+● Alta de alumnos
+● Listar alumnos
+● Listar cursos
+● Agregar o quitar alumnos de un curso
+
+Será desarrollada en el lenguaje Java. Para la persistencia de los objetos de dominio se utiliza Hibernate, almacenando los datos en una base de datos mysql. Por último, la administración y construcción del proyecto se realiza mediante Maven.
+No es requerimiento obligatorio, pero se valorará el uso patrón de inyección de dependencias a través de Spring. Así como la utilización de Spring MVC.
+Desarrolle todo lo que considere necesario para terminar con una aplicación presentable. Cabe destacar, que cualquier supuesto que se tome, debe quedar documentado.
