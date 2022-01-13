@@ -39,7 +39,9 @@
     <div class="col-md-8">
         <h4>Seleccione los Alumnos que desea agregar al Curso: ${curso.nombre}</h4>
         <form action="agregarAlumnosACurso" method="GET" class="text-center">
-            <select name="idAlumno" class="custom-select">
+            <select name="idAlumno" class="form-select form-select-sm" aria-label=".form-select-sm example " style="
+    width: 25%;
+">
                 <c:forEach items="${listaDeAlumnos}" var="alumno">
                     <option value="${alumno.id}">${alumno.nombre} ${alumno.apellido}</option>
                 </c:forEach>

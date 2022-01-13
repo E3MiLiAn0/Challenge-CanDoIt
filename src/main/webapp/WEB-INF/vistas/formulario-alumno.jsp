@@ -46,7 +46,7 @@
     <form:input path="dni" id="dni" type="number"  class="form-control" /><br>
 
     <br>
-    <input type="submit" value="agregar Alumno">
+    <input type="submit" class="btn btn-lg btn-primary font-weight-bold" value="agregar Alumno">
     </form:form>
     </div>
 </div>

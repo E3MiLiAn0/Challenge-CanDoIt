@@ -42,7 +42,7 @@
             <form:input path="nombre" id="nombre"   class="form-control" /><br>
 
             <br>
-            <input type="submit" value="agregar Curso">
+            <input type="submit" class="btn btn-lg btn-primary font-weight-bold" value="agregar Curso">
         </form:form>
     </div>
 </div>

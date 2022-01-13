@@ -73,10 +73,11 @@ public class ControladorCurso {
         Alumno alumno = servicioAlumno.buscarAlumnoPorID(idAlumno);
         Curso curso= servicioCurso.buscarCursoPorId(idCurso);
         ModelMap model  = new ModelMap();
+        model.put("alumno",alumno);
         List<Alumno> alumnosEnElCurso= servicioCurso.listaDeAlumnosDeUnCurso(curso);
         for (Alumno alumno1 : alumnosEnElCurso){
             if (alumno1.getId().equals(alumno.getId())){
-                model.put("error", "el alumno ya esta inscripto a este curso");
+                model.put("error",  " "+ alumno.getNombre() +" ya esta inscripto a este curso");
                 return new ModelAndView("exepcionCurso",model);
             }
         }

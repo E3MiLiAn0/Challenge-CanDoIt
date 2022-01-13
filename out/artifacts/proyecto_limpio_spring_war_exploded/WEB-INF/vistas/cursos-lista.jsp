@@ -45,7 +45,7 @@
       <tr>
         <th scope="col">ID</th>
         <th scope="col">NOMBRE</th>
-        <th scope="col">ALUMNOS</th>
+        <th >ALUMNOS</th>
 
       </tr>
       </thead>
