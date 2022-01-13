@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title></title>
 </head>
-<body >
+<body style="background: #323025c7;">
 
 
 <div style="
