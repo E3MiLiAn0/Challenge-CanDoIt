@@ -49,7 +49,7 @@
                             <p class="card-text">${error}</p>
                         </div>
 
-                        <p>intente de nuevo con otro alumno</p>
+                        <p>Intente de nuevo con otro Alumno</p>
                         <a class="nav-link active" aria-current="page" href="todos-los-cursos">Volver </a>
 
                     </div>
